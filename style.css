@@ -1,0 +1,110 @@
+body{
+	margin:0;
+	font-size:16px;
+	font-family: 'Oswald', sans-serif;
+	color: #393939;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	margin: 1em 0;
+	letter-spacing: 0px;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+div.banner {
+    height: 380px;
+    width: 480px;
+    background-image: url(img/boat.jpg);
+    background-repeat: round;
+}
+
+h2.websitetitle{
+	font-family: 'Oswald', sans-serif;
+	line-height: 1.5em;
+	letter-spacing: 0px;
+	font-size: 30px;
+	font-weight: 300;
+	text-transform: uppercase;
+	margin-top: 0px;
+}
+
+.main_navigation{
+	font-family: 'Oswald', sans-serif;
+	line-height: 1.5em;
+	letter-spacing: 0px;
+	font-size: 18px;
+	font-weight: 300;
+}
+
+.subitem{
+	margin-left: 12px;
+}
+
+ul {
+	display: block;
+	list-style: none;
+    list-style-image: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul.sub_navigation {
+	display: block;
+	list-style: none;
+	list-style-image: none;
+	margin: 10;
+}
+
+ul.main_navigation>a {
+	cursor: pointer;
+	color: #393939;
+}
+
+ul.social_icons li {
+display: inline;
+}
+
+a:hover,a:active
+{
+	color:#909090;
+}
+
+div {
+	display: block;
+}
+
+.social{
+	width: 24px;
+	height: 24px;
+}
+
+a {
+	text-decoration: none;
+	color: #393939;
+}
+.container {
+	width: 970px;
+	padding: 30px;
+}
+
+.sidebar{
+	width: 25%;
+	float: left;
+	position: fixed;
+}
+
+.main_content{
+	float: right;
+	width: 75%;
+}
+
+li {
+	display: list-item;
+	text-align: -webkit-match-parent;
+	margin-bottom:10px;
+}
+
