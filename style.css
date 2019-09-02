@@ -1,128 +1,63 @@
 body {
     margin: 0;
-    font-size: 14px;
-    /* font-family: 'Oswald', sans-serif; */
-    font-family: 'Trebuchet MS', monospace;
-    color: #9ea1a8;
+    padding: 0;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    /* margin: 1em 0; */
-    letter-spacing: 0px;
+body,
+p,
+ul {
+    -webkit-font-smoothing: antialiased
 }
 
-h3 {
+body {
+    /* font-family: -apple-system, sans-serif; */
+    font-family: 'Trebuchet MS', sans-serif;
+    background-color: #fff;
     color: #000;
+    font-weight: lighter
 }
 
 section#cartaoVisita {
     position: absolute;
-    bottom: 26%;
+    bottom: 66%;
     left: 10%;
     height: 100px;
     margin-bottom: 10px;
 }
 
-img {
-    max-width: 100%;
-    max-height: 100%;
-}
-
-div.banner {
-    height: 380px;
-    width: 480px;
-    background-image: url(img/boat.jpg);
-    background-repeat: round;
-}
-
-h2.websitetitle {
-    font-family: 'Oswald', sans-serif;
-    line-height: 1.5em;
-    letter-spacing: 0px;
-    font-size: 30px;
-    font-weight: 300;
-    text-transform: uppercase;
-    margin-top: 0px;
-}
-
-.main_navigation {
-    font-family: 'Oswald', sans-serif;
-    line-height: 1.5em;
-    letter-spacing: 0px;
-    font-size: 18px;
-    font-weight: 300;
-}
-
-.subitem {
-    margin-left: 12px;
-}
-
-ul {
+section {
     display: block;
-    list-style: none;
-    list-style-image: none;
-    margin: 0;
-    padding: 0;
 }
 
-ul.sub_navigation {
-    display: block;
-    list-style: none;
-    list-style-image: none;
-    margin: 10;
+h1 {
+    font-size: 2em;
+    font-weight: 400;
+    letter-spacing: 0;
+    margin: 0
 }
 
-ul.main_navigation>a {
-    cursor: pointer;
-    color: #393939;
-}
-
-ul.social_icons li {
-    display: inline;
+#cartaoVisita ul {
+    list-style-type: none;
+    margin: 1em 0 0;
+    padding: 0
 }
 
 a:hover,
+a:visited,
+a:link,
 a:active {
-    color: #909090;
-}
-
-div {
-    display: block;
-}
-
-.social {
-    width: 24px;
-    height: 24px;
-}
-
-a {
+    color: #000;
     text-decoration: none;
-    color: #393939;
+    border-bottom: 1px solid #dbdbdb
 }
 
-.container {
-    width: 970px;
-    padding: 30px;
+a:hover {
+    border-bottom: 1px solid #000
 }
 
-.sidebar {
-    width: 25%;
-    float: left;
-    position: fixed;
-}
-
-.main_content {
-    float: right;
-    width: 75%;
-}
-
-li {
-    display: list-item;
-    text-align: -webkit-match-parent;
-    margin-bottom: 10px;
+p,
+ul {
+    font-size: 18px;
+    font-weight: lighter;
+    line-height: 34px
 }
