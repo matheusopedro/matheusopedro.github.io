@@ -19,16 +19,20 @@ E-mail: [matheusinaciopedro@gmail.com](mailto:matheusinaciopedro@gmail.com)
 ### Back-end
 
 - Node.js (ExpressJS and NestJS)
+- Python (applied in AWS Lambda functions)
+- GraphQL (Aws AppSync)
 
 ### Front-end
 
 - HTML5/CSS (Web)
-- Kotlin
+- Java (Android)
+- Kotlin (Android)
 
 ### DevOps
 
 - AWS 
-- Docker + Ansible
+- Docker
+- Elastic stack (Elasticsearch, Kibana, Beats)
 
 ### General
 
