@@ -19,7 +19,7 @@ E-mail: [matheusinaciopedro@gmail.com](mailto:matheusinaciopedro@gmail.com)
 ### Back-end
 
 - Node.js (ExpressJS and NestJS)
-- Python (applied in AWS Lambda functions)
+- Python (AWS Lambda functions)
 - GraphQL (Aws AppSync)
 
 ### Front-end
