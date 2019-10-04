@@ -28,7 +28,7 @@ E-mail: [matheusinaciopedro@gmail.com](mailto:matheusinaciopedro@gmail.com)
 - Java (Android)
 - Kotlin (Android)
 
-### DevOps
+### Other
 
 - AWS 
 - Docker
